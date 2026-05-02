@@ -1,0 +1,25 @@
+{
+  "name": "bank_transaction_system",
+  "version": "1.0.0",
+  "description": "banking system to understand transaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodmon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyushsharma218/bank_transaction_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piyushsharma218/bank_transaction_system/issues"
+  },
+  "homepage": "https://github.com/Piyushsharma218/bank_transaction_system#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  }
+}
