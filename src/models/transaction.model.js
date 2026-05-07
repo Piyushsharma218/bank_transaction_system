@@ -8,7 +8,7 @@ const transactionSchema = new mongoose.Schema(
       required: [true, "Transaction must be associated with a fromAccount"],
       index: true,
     },
-    toString: {
+    toAccount: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "account",
       required: [true, "Transaciton must be associated with a toAccount"],
