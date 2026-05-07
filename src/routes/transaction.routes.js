@@ -5,7 +5,7 @@ const auhtMiddleware=require("../middleware/auth.middleware.js")
 const router = express.Router();
 
 
-router.post("/",auhtMiddleware.authMiddleware)
+router.post("/",auhtMiddleware.authMiddleware,transactionController.createTransaction)
 
 
 
