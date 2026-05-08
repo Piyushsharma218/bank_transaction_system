@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.post("/",auhtMiddleware.authMiddleware,transactionController.createTransaction)
 
-
+router.post("/system/initial-funds",auhtMiddleware.authSystemUserMiddleware,transactionController.createInitialFundsTransaction)
 
 module.exports=router
