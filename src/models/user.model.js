@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema(
       unique: [true, "emial laready exists"],
       required: [true, "email is required"],
       trim: true,
-      lowrecase: true,
+      lowercase: true,
       match: [
         /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
         "Please fill a valid email address",
